@@ -15,8 +15,12 @@ const StyledBox = styled(Box)`
 const MainBox = () => {
   return (
     <StyledBox>
-    <Header />
-    <FormContainer />
+    <Box>  
+      <Header />
+    </Box>  
+    <Box className='box-center'>
+     <FormContainer />
+    </Box>
     {/* <Footer /> */}
     </StyledBox>
   )

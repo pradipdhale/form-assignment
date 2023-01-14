@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { Box } from '@mui/material'
 import React from 'react'
 import LOGO from '../../assets/logo.png'
 
@@ -11,9 +12,9 @@ const StyledIMG = styled('img')`
 
 const Header = () => {
   return (
-    <>
+    <Box>
     <StyledIMG src={LOGO} />
-    </>
+    </Box>
   )
 }
 
